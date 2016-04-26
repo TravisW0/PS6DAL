@@ -61,8 +61,6 @@ public class PersonDomainModel {
         this.street=street;
     }
 
-
-
     public int getPostalCode() {
         return postalCode;
     }
@@ -70,8 +68,6 @@ public class PersonDomainModel {
     public void setPostalCode(int postalCode) {
         this.postalCode=postalCode;
     }
-
-
 
     public String getCity() {
         return city;
@@ -81,15 +77,12 @@ public class PersonDomainModel {
         this.city=city;
     }
 
-
-
     public Date getBirthday() {
         return birthday;
     }
 
-    public void setBirthday(Date birthday) {
-        this.birthday=birthday;
+    public void setBirthday(Date dDate) {
+        this.birthday=dDate;
     }
-
 
 }
